@@ -1645,8 +1645,8 @@
 /* Nav */
 
 	#nav {
-		background-color: #282828;
-		text-align: center;
+		background-color: #999999; /* backgroud color*/
+		text-align: left;
 		position: fixed;
 		left: 0;
 		top: 0;
@@ -1673,6 +1673,7 @@
 
 			#nav a:hover {
 				color: #fff !important;
+				
 			}
 
 			#nav a.active:before {
@@ -1681,10 +1682,11 @@
 				position: absolute;
 				bottom: -0.6em;
 				left: 50%;
-				margin-left: -0.75em;
+				margin-left: 0.75em;
 				border-left: solid 0.75em transparent;
 				border-right: solid 0.75em transparent;
 				border-top: solid 0.6em #282828;
+
 			}
 
 /* Articles */
@@ -1758,7 +1760,7 @@
 				}
 
 			footer {
-				margin: 3em 0 0 0;
+				margin: 1em 0 0 0;
 			}
 
 				footer > p {
